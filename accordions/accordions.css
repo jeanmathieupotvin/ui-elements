@@ -1,0 +1,30 @@
+.accordion-btn {
+  padding: 15px;
+  width: 100%;
+  color: #444;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  border: 1pt solid #FBEAFF;
+  background-color: #FBEAFF;
+  transition: all 0.3s ease-out;
+}
+.accordion-active,
+.accordion-btn:hover,
+.accordion-btn:active {
+  border: 1pt solid #ccc;
+  background-color: #ccc; 
+}
+.accordion-active:hover,
+.accordion-active:active {
+  background-color: #FBEAFF; 
+}
+.accordion-main {
+  display: none;
+  padding: 0 15px;
+  text-align: justify;
+  border: 1pt solid #ccc;
+  background-color: white;
+}
