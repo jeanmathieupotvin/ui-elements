@@ -7,7 +7,7 @@
 .accordion-btn {
   padding: 15px;
   width: 100%;
-  color: #444;
+  color: #2c3e50;
   font-size: 1.25em;
   font-weight: bold;
   text-align: left;
@@ -20,17 +20,20 @@
 .accordion-active,
 .accordion-btn:hover,
 .accordion-btn:active {
-  border: 1pt solid #ccc;
-  background-color: #ccc; 
+  color: #fcfcfc;
+  border: 1pt solid #673ab7;
+  background-color: #673ab7; 
 }
 .accordion-active:hover,
 .accordion-active:active {
+  color: #2c3e50;
+  border: #fbeaff;
   background-color: #fbeaff; 
 }
 .accordion-main {
   display: none;
   padding: 0 15px;
   text-align: justify;
-  border: 1pt solid #ccc;
-  background-color: white;
+  border: 1pt solid #673ab7;
+  background-color: #fcfcfc;
 }
